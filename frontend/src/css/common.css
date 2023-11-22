@@ -1,0 +1,22 @@
+#section::before{
+    position:relative;
+    content: "";
+     width: 100vw;
+    height: 100vh;
+    background: url(./images/writing.jpg)  center center/cover;
+    z-index: -1;
+}
+.form-label
+{
+    color:seagreen;
+}
+#section::before{
+    position:fixed;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    background: url(./images/pencil.jpg) center center/cover;
+    z-index: -1;
+    /* margin-top: 100vh; */
+}
+
